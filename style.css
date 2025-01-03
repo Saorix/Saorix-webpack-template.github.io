@@ -1,0 +1,125 @@
+body {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  color: black;
+  line-height: 1.5;
+  text-align: center;
+}
+header {
+
+}
+h1 {
+  font-size: 1.4em;
+  font-weight: bold;
+}
+h2 {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+footer {
+  width: 100%;
+  margin-top: 40px;
+  text-align: center;
+  color: gray;
+}
+.carousel {
+  padding: 10px 0px;
+  margin: auto;
+}
+
+.carousel .single_item {
+  width: 250px;
+  margin: 0px auto;
+}
+
+.carousel .single_item .slick-dots {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carousel .single_item .slick-dots button {
+  font-size: 0;
+  padding: 15px;
+  border-radius: 50%;
+  background-color: #cfcfcf;
+}
+
+.carousel .single_item .slick-dots li {
+  list-style: none;
+  margin: 0px 30px 0px 0px;
+}
+
+.carousel .single_item .slick-active button {
+  padding: 20px;
+  background-color: #b0b0b0;
+  border-radius: 50%;
+}
+
+.carousel .slick-prev, .carousel .slick-next {
+  position: absolute;
+  top: 25%;
+  transform: translateY(-50%);
+  left: -80px;
+  border: none;
+  background-color: white;
+  transform: scaleX(-1);
+}
+
+.carousel .slick-prev img, .carousel .slick-next img {
+  width: 51px;
+  height: 51px;
+}
+
+.carousel .slick-next {
+  left: auto;
+  right: -80px;
+  transform: scaleX(1);
+}
+
+.deposit {
+  margin: auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+}
+
+select, input {
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.result {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}

@@ -1,0 +1,16 @@
+{
+  "name": "lab3-webpack",
+  "version": "0.0.1",
+  "description": "using npm, webpack and REST API",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Igor T.",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^5.97.1",
+    "webpack-cli": "^6.0.1"
+  }
+}
