@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Слайдер</title>
+
+<script defer src="main.js"></script><link href="main.css" rel="stylesheet"></head>
+<body>
+  <section class="header">
+  </section>
+  <section class="carousel">
+    <h2>Коты</h2>
+      <div class="single_item">
+        <div>
+          <img src="assets/f8afadc1c6b6d6cd483a.jpg" alt="slide" width="350" height="250">
+        </div>
+        <div>
+          <img src="assets/f6c391402aae71a4e435.jpg" alt="slide" width="250" height="250">
+        </div>
+        <div>
+          <img src="assets/0ec2309748628b06430f.jpg" alt="slide" width="250" height="250">
+        </div>
+      </div>
+    </section>
+    <br>
+    <section class="deposit">
+      <h2>Калькулятор вкладов</h2>
+      <form id="deposit-form">
+        <label for="deposit-type">Вид вклада:</label>
+        <select id="deposit-type" name="deposit-type">
+          <option value="replenishable">Пополняемый</option>
+          <option value="emergency">Срочный</option>
+        </select>
+        <label for="deposit-term">Срок вклада:</label>
+        <select id="deposit-term" name="deposit-term">
+        </select>
+        <label for="deposit-amount">Сумма, руб:</label>
+        <input type="number" id="deposit-amount" name="deposit-amount" required>
+        <button type="button" id="calculate-button">Рассчитать</button>
+      </form>
+      <div id="result" class="result"></div>
+    </section>
+    <footer>
+      Новосибирск 2024
+    </footer>
+
+</body>
+</html>
