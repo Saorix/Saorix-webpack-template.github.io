@@ -6,7 +6,7 @@ module.exports = {
   plugins: [
     new MiniCssExtractPlugin(),
     new HtmlWebpackPlugin({
-      template: 'index.html'
+      template: './src/index.html'
     })
   ],
   devtool: 'source-map',
