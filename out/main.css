@@ -457,6 +457,11 @@ button:hover {
     border: 1px solid #ccc;
     border-radius: 4px;
 }
+.vacancy {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
 
 /*!***********************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./src/style/slick.css ***!
