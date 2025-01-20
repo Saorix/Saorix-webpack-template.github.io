@@ -2,6 +2,7 @@
 ### Лабораторная работа №3 <br>
 Выполнил: Игорь Третьяков<br>
 Группа: Веб-4<br>
+## https://saorix.github.io/webpack-template/out/index.html
 Команды для управления webpack:
 ```
 npm run webpack – минифицирование index.html, стилей (css), javascript
