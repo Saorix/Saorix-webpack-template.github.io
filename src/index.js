@@ -6,7 +6,9 @@
 // scripts //
 
 import  './js/script.js';
+
 import './js/VacancyWidget.js';
+
 // import  './js/slick.min.js';
 
 // style //

@@ -345,10 +345,12 @@ header {
 h1 {
   font-size: 1.4em;
   font-weight: bold;
+  margin-bottom: 10px;
 }
 h2 {
   font-size: 1.2em;
   font-weight: bold;
+  margin-bottom: 10px;
 }
 footer {
   width: 100%;
@@ -457,11 +459,89 @@ button:hover {
     border: 1px solid #ccc;
     border-radius: 4px;
 }
-.vacancy {
-            border: 1px solid #ccc;
-            padding: 10px;
-            margin-bottom: 10px;
-        }
+#app {
+    border: 10px;
+}
+
+input {
+    width: 40%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.job {
+    margin: auto;
+    background-color: #fff;
+    padding: 20px;
+    margin: 10px auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 65%;
+}
+
+.job h2 {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+.job p {
+    margin: 5px 0;
+    font-size: 0.9em;
+    color: #555;
+}
+
+.job a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.job a:hover {
+    text-decoration: underline;
+}
+#pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#pagination button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    margin: 0 5px;
+}
+
+#pagination button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+#pagination button:hover:not(:disabled) {
+    background-color: #0056b3;
+}
+
+#page-info {
+    margin: 0 10px;
+}
 
 /*!***********************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./src/style/slick.css ***!
